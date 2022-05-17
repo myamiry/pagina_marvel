@@ -1,0 +1,63 @@
+.margenIzquierdo-comienzo{
+    margin-left: 40px;;
+}
+
+.margenDerecho-comienzo{
+    margin-right: 40px;;
+}
+
+.margen-separacion{
+    margin-right: 20px;;
+    margin-left: 20px;;
+}
+
+
+.section-image{
+    
+}
+
+.padre{
+    position: relative;
+    display: inline-block;
+}
+
+.image-texto{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.letrero{
+    background-color: yellow;
+}
+
+
+.rotarImagen {
+    animation-name: rotacion;
+    animation-duration: 4s;
+}
+.opacidadImagen {
+    animation-name: opacidad;
+    animation-duration: 4s;
+}
+
+.center { float: none; margin-left: auto; margin-right: auto; }
+
+
+
+@keyframes rotacion {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@keyframes opacidad {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}

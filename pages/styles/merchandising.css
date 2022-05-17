@@ -1,0 +1,12 @@
+.evitar-salto-linea{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rebaja{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
